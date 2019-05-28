@@ -1,6 +1,6 @@
 <template>
   <div id="index">
-  <mt-header fixed  class="fs1-2" title="标题过长会隐藏后面的内容啊哈哈哈哈">
+  <mt-header fixed  class="fs1-2" title="饿了么">
       <router-link to="/" slot="left">
        <!--  <div><icon class="search2" name="search2" ></icon></div> -->
       </router-link>
@@ -24,7 +24,7 @@
 
         <div class="shoplist after">
             <div class="shopimgbox">
-                <img >
+                <img src="/static/am.jpg">
             </div>
             <div class="rightbox">
                 <div class="shoptop">
@@ -56,7 +56,7 @@
 
         <div class="shoplist after">
             <div class="shopimgbox">
-                <img >
+                <img src="/static/am.jpg">
             </div>
             <div class="rightbox">
                 <div class="shoptop">
@@ -88,7 +88,7 @@
 
         <div class="shoplist after">
             <div class="shopimgbox">
-                <img >
+                <img src="/static/am.jpg">
             </div>
             <div class="rightbox">
                 <div class="shoptop">
@@ -223,7 +223,7 @@
 .shopimgbox>img{
   height:100%;
   width:100%;
-  background-color:red;
+  background:url(/static/am.jpg);
 }
 .maindiv{
   border-top:1px solid #E4E4E4;

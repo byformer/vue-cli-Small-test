@@ -19,6 +19,7 @@
     name: 'app',
     components: {
       'footer-bar': Footer
+   
     },
     computed: {}
   }

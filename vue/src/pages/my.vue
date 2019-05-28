@@ -52,26 +52,26 @@ export default {
   //生命周期
       //城市列表
       this.$http.get('http://cangdu.org:8001/v1/cities?type=group').then(response => {
-        console.log(response);
+        
         this.citylist=response.body;
       }, response => {
-        console.log(response);
+     
         
       });
       //热门城市
       this.$http.get('http://cangdu.org:8001/v1/cities?type=hot').then(response => {
-        console.log(response);
+      
         this.hotcity=response.body;
       }, response => {
-        console.log(response);
+     
         
       });
       //定位城市
       this.$http.get('http://cangdu.org:8001/v1/cities?type=guess').then(response => {
-        console.log(response);
+        
         this.nowcity=response.body;
       }, response => {
-        console.log(response);
+      
         
       });
 

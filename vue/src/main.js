@@ -23,6 +23,7 @@ Vue.component(Switch.name, Switch)
 Vue.use(VueResource)
 Vue.use(Mint)
 Vue.component(Button.name, Button)
+
 // eslint-disable-next-line no-undef
 /* vue.use(Resource) */
 /* eslint-disable no-new */
